@@ -1,0 +1,86 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.main-menu ul li {
+    margin-left: 15px;
+}
+    .singel-info p {
+    margin-right: 10px;
+}
+    
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .slider-wrapper {
+    padding: 80px 40px;
+}
+.slider-wrapper a.btn {
+    margin-bottom: 20px;
+}
+    .slider-wrapper h1 {
+    font-size: 44px;
+}
+    .about-info h2::before {
+    top: 160px;
+}
+    
+.card-body h2::before {
+    top: 65px;
+
+}
+    .course-info h2::before {
+    top: 155px;
+}
+    
+.register-area .register-side1 h2::before {
+    top: 100px;
+}
+    .course-info h2 {
+    font-size: 55px;
+}
+    .subcribe-area .course-info h2::before {
+    top: 210px;
+}
+    .singel-info i {
+    margin-right: 10px;
+}
+    .singel-info p {
+    padding-left: 0;
+}
+        .why-chosse-area .chosse-info h2::before {
+    top: 144px;
+}
+    .happy-student-area .student-info h2::before {
+    top: 155px;
+}
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+.course-info h2::before {
+    top: 142px;
+}
+.why-chosse-area .chosse-info h2::before {
+    top: 85px;
+}
+    .happy-student-area .student-info h2::before {
+    top: 95px;
+}
+    
+}
